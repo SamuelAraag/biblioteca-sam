@@ -227,6 +227,10 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;" >
+        <p style="margin: 0;">{{contador}}</p>
+        <button (click)="adicionarContador()">Adicionar contador</button>
+      </div>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">

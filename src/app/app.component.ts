@@ -10,4 +10,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'biblioteca';
+  contador = 0;
+
+  adicionarContador(){
+    this.contador = ++this.contador;
+  }
 }
