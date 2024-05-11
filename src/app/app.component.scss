@@ -1,0 +1,24 @@
+.livro {
+    width: 200px;
+
+    .imagem {
+        width: 100%;
+        object-fit: cover;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    /* Adicionando a transição com a função de timing personalizada */
+    transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.livro:hover {
+    transform: scale(1.2);
+}
+
+.padding-lateral{
+    padding-left: 20px;
+    padding-right: 20px;
+}

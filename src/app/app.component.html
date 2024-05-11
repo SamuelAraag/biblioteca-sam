@@ -326,13 +326,15 @@
   </div>
 </main>
 
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<div class="padding-lateral">
+  <div class="livro">
+    <div class="imagem">
+      <img [src]="livro.linkImagem" alt="">
+    </div>
+    <div class="titulo">{{livro.titulo}}</div>
+  </div>
+</div>
+
 
 
 <router-outlet />
